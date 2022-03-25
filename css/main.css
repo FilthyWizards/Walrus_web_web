@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-color: rgba(30, 61, 129, 0.822);
+}
+
+.banner__content{
+    padding: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+.banner__text{
+    flex-grow: 1;
+    line-height: 2;
+}
+
+.banner__close{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.banner__text,
+.banner__close > span{
+    color: white;
+}
+.about, .home, .walrus_pics{
+    color: rgb(0, 0, 0);
+    background-color: rgb(95, 124, 219);
+    text-decoration: none;
+    height: 1.2em;
+    padding: 1px 6px;
+    margin: 1px 0;
+    border-left: 2px white;
+    border-top: 2px wheat;
+    border-right: 2px black;
+    border-bottom: 2px black;
+    
+}
+.about, .walrus_pics, .home{
+    display: flex;
+    justify-content: end;
+    flex-direction: row-reverse;
+    
+}
+
+.about, .home, .walrus_pics:hover{
+    background-color: rgb(76, 155, 179);
+    text-decoration: none;
+}
+.home_title{
+    display: flex;
+    justify-content: center;
+}
+
+#big{
+    display: flex;
+    justify-content: center;
+}
+
+.male {
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
